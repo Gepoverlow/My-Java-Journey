@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        // GreetingRunner.receiveGreetingTo("Fernando", 23);
-        // GreetingRunner.talkToTheConsole();
+        // Greeter.greetTo("Fernando", 23);
+        // Greeter.talkToTheConsole();
         NumberGuesser.playNumberGuesser();
 
     }
