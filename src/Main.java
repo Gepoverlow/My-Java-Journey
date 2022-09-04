@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println();
+        // GreetingRunner.receiveGreetingTo("Fernando", 23);
+        // GreetingRunner.talkToTheConsole();
+        NumberGuesser.playNumberGuesser();
+
     }
+
 }
