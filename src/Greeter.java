@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class GreetingRunner {
+public class Greeter {
 
-    public static void receiveGreetingTo(String name, int age) {
+    public static void greetTo(String name, int age) {
 
         System.out.println("Nice to meet you " + name + ", of age " + age);
 
