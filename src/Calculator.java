@@ -5,22 +5,44 @@ public class Calculator {
     public static void runCalculator(){
 
         Scanner console = new Scanner(System.in);
+        int numberOne;
+        int operatorId;
+        int numberTwo;
+
 
         System.out.println("Pick first number");
-        int numberOne = console.nextInt();
+        numberOne = console.nextInt();
+        console.nextLine();
 
         System.out.println("Choose an Operator:");
-        System.out.println("1 - Add");
-        System.out.println("2 - Subtract");
-        System.out.println("3 - Multiply");
-        System.out.println("4 - Divide");
+        printOptions();
 
-        int operatorId = console.nextInt();
+        while (!console.hasNextInt()) {
+
+            System.out.println("Please select a number that corresponds to an operator:");
+            printOptions();
+            console.nextLine();
+
+        }
+
+        do {
+
+                operatorId = console.nextInt();
+
+            if(!validateOperatorInput(operatorId)){
+
+                System.out.println("Please enter a valid operator:");
+                printOptions();
+
+            }
+
+        } while(!validateOperatorInput(operatorId));
+
 
         System.out.println("Pick the second number");
-        int numberTwo = console.nextInt();
+        numberTwo = console.nextInt();
 
-        System.out.println("The result of your calculation is " + handleCalculation(numberOne, operatorId, numberTwo));
+        System.out.println("Result:  " + handleCalculation(numberOne, operatorId, numberTwo));
 
     }
 
@@ -81,6 +103,21 @@ public class Calculator {
             return result;
 
         }
+    }
+
+    public static boolean validateOperatorInput(int input) {
+
+        return input == 1 || input == 2 || input == 3 || input == 4;
+
+    }
+
+    public static void printOptions(){
+
+        System.out.println("1 - Add");
+        System.out.println("2 - Subtract");
+        System.out.println("3 - Multiply");
+        System.out.println("4 - Divide");
+
     }
 
 }
