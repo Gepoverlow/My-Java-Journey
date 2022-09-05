@@ -3,7 +3,8 @@ public class Main {
 
         // Greeter.greetTo("Fernando", 23);
         // Greeter.talkToTheConsole();
-        NumberGuesser.playNumberGuesser();
+        // NumberGuesser.playNumberGuesser();
+        Calculator.runCalculator();
 
     }
 
