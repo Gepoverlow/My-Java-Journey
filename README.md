@@ -1,5 +1,5 @@
 # My Java Journey
 
-## Chapter One - Variables
+## Chapter One - Basic Syntax
 
-In this chapter we dive a bit deeper on what kind of variables we can work with in Java.
+In this chapter we make my first steps into the Java basic syntax.
