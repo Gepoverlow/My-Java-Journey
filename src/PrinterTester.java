@@ -1,4 +1,4 @@
-class AppRunner {
+class PrinterTester {
 
     public static void main(String[] args) {
 
