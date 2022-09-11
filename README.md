@@ -10,7 +10,8 @@ In this chapter we delve into the language fundamentals, including:
 - Data Types, Variables.
 - Conditionals.
 - Functions.
-- Loops -> Exception Handling.
+- Loops.
+- Exceptions / Exception Handling.
 - Data Structures.
 - OOP, Interfaces, Classes.
 - Packages.

@@ -7,7 +7,7 @@ Data types specify the different sizes and values that can be stored in the vari
 - Primitive: The primitive data types include boolean, char, byte, short, int, long, float and double.
 - Non-primitive (a.k.a reference types, because they reference to an object): The non-primitive data types include String(yes, these are actually reference to a String object!), Classes, Arrays, Interfaces, etc.
 
-### Main differences between Primitive and Non-Primitive(or reference):
+### PlayingAround.Main differences between Primitive and Non-Primitive(or reference):
 
 1. Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
 2. Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
@@ -86,11 +86,11 @@ class InstanceVariableTester {
 
     }
     
-    //Main Method
+    //PlayingAround.Main Method
     public static void main(String[] args) {
 
         // Object Creation
-        InstanceVariableTester exampleObject = new InstanceVariableTester();
+        Testing.InstanceVariableTester exampleObject = new Testing.InstanceVariableTester();
         // Displaying O/P
         System.out.println("Version: " + exampleObject.instanceVariable);
 
@@ -124,8 +124,8 @@ class StaticVariableTester {
 
         //staticVariable variable can be accessed without object creation
         //Displaying O/P
-        //StaticVariableTester.staticVariable --> using the static variable
-        System.out.println("Version : "+StaticVariableTester.staticVariable);
+        //Testing.StaticVariableTester.staticVariable --> using the static variable
+        System.out.println("Version : "+Testing.StaticVariableTester.staticVariable);
         
     }
     

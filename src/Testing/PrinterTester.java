@@ -1,3 +1,5 @@
+package Testing;
+
 class PrinterTester {
 
     public static void main(String[] args) {

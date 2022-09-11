@@ -1,3 +1,5 @@
+package PlayingAround;
+
 import java.util.Scanner;
 
 public class Calculator {

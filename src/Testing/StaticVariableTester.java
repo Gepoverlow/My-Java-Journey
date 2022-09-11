@@ -1,3 +1,5 @@
+package Testing;
+
 class StaticVariableTester {
 
     //Declared static variable

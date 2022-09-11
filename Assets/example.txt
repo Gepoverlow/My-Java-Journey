@@ -1,0 +1,3 @@
+Im just
+an checkedException
+text file

@@ -1,3 +1,5 @@
+package Testing;
+
 class InstanceVariableTester {
 
     public String exampleString; // Declare Instance Variable
@@ -7,7 +9,7 @@ class InstanceVariableTester {
         this.exampleString = "Hello World - variable edition"; // initializing Instance Variable
 
     }
-    //Main Method
+    //PlayingAround.Main Method
     public static void main(String[] args) {
 
         // Object Creation
