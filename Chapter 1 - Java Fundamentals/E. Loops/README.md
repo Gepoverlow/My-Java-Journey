@@ -41,7 +41,7 @@ public class LoopTester {
 
     public static void main(String[] args) {
 
-        Testing.LoopTester loopObject = new Testing.LoopTester(5, 10);
+        LoopTester loopObject = new LoopTester(5, 10);
         loopObject.whileLoopMethod(loopObject.x, loopObject.y);
         
     }
@@ -104,7 +104,7 @@ public class LoopTester {
 
     public static void main(String[] args) {
 
-        Testing.LoopTester loopObject = new Testing.LoopTester(5, 10);
+        LoopTester loopObject = new LoopTester(5, 10);
         // loopObject.whileLoopMethod(loopObject.x, loopObject.y);
         loopObject.forLoopMethod(loopObject.x, loopObject.y);
 

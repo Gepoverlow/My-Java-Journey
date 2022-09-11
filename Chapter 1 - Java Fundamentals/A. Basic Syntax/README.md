@@ -32,7 +32,7 @@ class AppRunner {
         try{
 
             // 'exampleObject' is my instantiated class, therefore my *Object*.
-            Testing.ExamplePrinter exampleObject = new Testing.ExamplePrinter();
+            ExamplePrinter exampleObject = new ExamplePrinter();
 
             exampleObject.printExample();
 
@@ -45,7 +45,7 @@ class AppRunner {
 
 }
 
-// 'Testing.ExamplePrinter' is my *Class*.
+// 'ExamplePrinter' is my *Class*.
 class ExamplePrinter {
 
     // 'example' is my Instance *Variable*.
@@ -115,14 +115,14 @@ system.out.println("Hello World"); // invalid syntax
 - The first letter of the class should be in Uppercase:
 
 ```
-class Testing.ExamplePrinter { ...code... } // Nice.
+class ExamplePrinter { ...code... } // Nice.
 class examplePrinter { ...code... } // Allowed, but discouraged.
 ```
 
 - If several words are used to form the name of the class, each inner word’s first letter should be in Uppercase. Underscores are allowed, but not recommended. Also allowed are numbers and currency symbols, although the latter are also discouraged because the are used for a special purpose (for inner and anonymous classes).
 
 ```
-class Testing.ExamplePrinter { ...code... } // Nice.
+class ExamplePrinter { ...code... } // Nice.
 class 1examplePrinter { ...code... } // NOT ALLOWED.
 class $examplePrinter { ...code... } // Allowed, but discouraged.
 class example$Printer { ...code... } // Allowed, but discouraged.

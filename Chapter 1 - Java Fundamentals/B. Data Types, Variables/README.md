@@ -90,7 +90,7 @@ class InstanceVariableTester {
     public static void main(String[] args) {
 
         // Object Creation
-        Testing.InstanceVariableTester exampleObject = new Testing.InstanceVariableTester();
+        InstanceVariableTester exampleObject = new InstanceVariableTester();
         // Displaying O/P
         System.out.println("Version: " + exampleObject.instanceVariable);
 
@@ -124,8 +124,8 @@ class StaticVariableTester {
 
         //staticVariable variable can be accessed without object creation
         //Displaying O/P
-        //Testing.StaticVariableTester.staticVariable --> using the static variable
-        System.out.println("Version : "+Testing.StaticVariableTester.staticVariable);
+        //StaticVariableTester.staticVariable --> using the static variable
+        System.out.println("Version : "+ StaticVariableTester.staticVariable);
         
     }
     

@@ -62,9 +62,9 @@ public class ExceptionTester {
         try {
 
             // Throw an object of user defined exception
-            throw new Testing.MyUserException("Here would a description of the exception go");
+            throw new MyUserException("Here would a description of the exception go");
 
-        } catch (Testing.MyUserException example) {
+        } catch (MyUserException example) {
 
             System.out.println("Exception caught");
 
